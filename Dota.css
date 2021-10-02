@@ -40,8 +40,8 @@
         position: relative;
         left: -40px;
     }
-    /* .thumbnail:hover {
+    .thumbnail:hover {
     position:relative;
-    width:80px;
-    height: 160px;
-    } */
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    }
