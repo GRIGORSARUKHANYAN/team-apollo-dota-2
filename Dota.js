@@ -13,7 +13,7 @@ apiData.then((response) =>  response.json())
   })).then(array => {
 
 
-    
+    console.log(array);
 
     let search =  document.getElementById("search");
     let count = "0";
